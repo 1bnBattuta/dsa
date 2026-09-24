@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(math.Power(1.0, 5))
+	fmt.Println(math.Check_prime_square_root(1000000009))
 }
