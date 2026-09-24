@@ -7,5 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println(math.Check_prime_square_root(1000000009))
+	fmt.Println(math.Check_prime_fermat(1000000009, 5))
+	fmt.Println(math.Check_prime_fermat(1000000008, 5))
 }
