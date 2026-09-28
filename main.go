@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(math.Check_armstrong(9474))
+	fmt.Println(math.Check_palindrome(123454321))
 }
