@@ -12,5 +12,6 @@ func main() {
 
 	a := [4]int{1, 2, 3, 4}
 	fmt.Println(array.Subsequences(a[:]))
+	fmt.Println(array.Subarrays(a[:]))
 
 }
