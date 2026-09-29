@@ -10,10 +10,8 @@ import (
 func main() {
 	math.Check_palindrome(123454321)
 
-	arr := [4]int{2, 4, 5, 20}
-	array.Multiply_with_adjacent(arr[:])
-	fmt.Println(arr)
-	array.Revere_array(arr[:])
+	arr := [10]int{2, 4, 5, 20, 9, 11, 4, 19, 88, 1}
+	array.Reverse_array_in_groups(arr[:], 7)
 	fmt.Println(arr)
 
 }
