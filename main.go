@@ -10,8 +10,7 @@ import (
 func main() {
 	math.Check_palindrome(123454321)
 
-	a := [4]int{1, 2, 3, 4}
-	fmt.Println(array.Subsequences(a[:]))
-	fmt.Println(array.Subarrays(a[:]))
-
+	a := [8]int{-1, 2, 3, -4, 12, -7, 6, 10}
+	array.Rearrange_by_sign(a[:])
+	fmt.Println(a)
 }
