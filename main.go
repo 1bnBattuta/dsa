@@ -10,6 +10,6 @@ import (
 func main() {
 	math.Check_palindrome(123454321)
 
-	a := [8]int{-1, 2, 3, -4, 12, -7, 6, 10}
-	fmt.Println(array.Leader_elements(a[:]))
+	a := [8]int{3, 1, 4, 6, 1, 1, 6, 1}
+	fmt.Println(array.Majority_element(a[:]))
 }
